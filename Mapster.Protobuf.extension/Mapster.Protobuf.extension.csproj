@@ -13,10 +13,20 @@
     <PackageIcon>Mapster.Protobuf.Extension.png</PackageIcon>
     <RepositoryUrl>https://github.com/AkbarDizaji/Mapster.Protobuf.extension</RepositoryUrl>
     <PackageTags>Mapster;Protobuf;GRPC</PackageTags>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <None Include="..\..\..\..\Downloads\Mapster.Protobuf.Extension.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
